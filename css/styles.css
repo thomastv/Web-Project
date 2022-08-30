@@ -1,0 +1,137 @@
+
+
+.navbar-custom .navbar-brand{
+    color: #86c232;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #edf1e7;
+}
+
+.active{
+    color: #86c232 !important;
+}
+.btn-custom{
+    background-color: #86c232;
+}
+#contactus{
+    top: 200px;
+    height: 55%;
+    width: 100%;
+    /* background-color: #073836; */
+    color : #86c232;
+    text-align : center;
+}
+#contactus>span{
+    
+    font-size: 50px;
+    font-family: monospace;
+
+}
+#contactform{
+    align-items: center;
+    padding-top: 0.5%;
+    padding-bottom:  0.5%;
+    /* width:23%; */
+    background-color: #474b4f;
+    height: 100%;
+    margin:auto;
+    border-radius:25px;
+    margin-top: 5%;
+    min-width: auto;
+    max-width: 350px;
+}
+#contactform>form{
+    width:65%;
+    margin-left: 17.5%;
+    margin-top: 5%;
+    color: #0B0C10;
+    font-weight:200;
+    font-size: large;
+}
+
+#contactform>form>.btn{
+    background-color: #2C3531;
+    border: #2C3531;
+}
+#homepage>img{
+    max-width: 100%;
+    height: 150%;
+}
+
+
+input {
+    padding: 6px 12px 6px 12px;
+    border: 1px solid #665544;
+    color: #ffffff;
+}
+
+input.submit{
+    background-color: #a7c280;
+}
+input.submit:hover {
+    background-color: #86c232;
+}
+
+input.submit:active {
+    background-color: #61892F;
+}
+
+input.text {
+    color: #cccccc;
+}
+
+input.text:focus {
+    color: #665544;
+}
+
+.container-fluid{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.heading{
+    position: absolute;
+    top: 20%;
+    left: 10%;  
+}
+.heading>h1{
+    font-size: 450%;
+}
+
+.heading>h1>u{
+    width: 70%;
+}
+
+
+#stats{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #61892F;
+}
+#stats #statTitle{
+    font-size: 26px;
+}
+
+#stats #statCounter{
+    font-size: 50px;
+}
+
+.btn-primary{
+    background-color: #61892F !important;
+    border-color: #86c232 !important;
+}
+
+footer a{
+    color: #86c232;
+}
+
+#leaderTitle{
+    color: #86c232; 
+}
+#leaderSubtitle{
+    color: #61892F; 
+}
