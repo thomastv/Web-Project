@@ -30,3 +30,38 @@ function onAddProduct(){
     }
 
 }
+
+
+function verify(userEmail,password){
+    if(userEmail == "admin@tismotech.com" && password=="password")
+       localStorage.setItem("role","admin");
+    else
+       localStorage.setItem("role","user");
+}
+
+function validateLogin(){
+   var userEmail = document.getElementById("loginInputEmail1").value;
+   var password = document.getElementById("loginInputPassword1").value;
+   if(userEmail=="")
+       alert("Email Cannot be Empty");
+   else if(!userEmail.endsWith(".com") )//|| !userEmail.endsWith(".in"))
+       alert("Please Enter a valid Email")
+   else if(password.length < 5 ){
+       alert("Password needs atleast 5 characters");
+   } 
+   localStorage.removeItem("role");
+   verify(userEmail,password);
+}
+
+function validateSignUp(){
+   var userEmail = document.getElementById("inputEmail4").value;
+   var password = document.getElementById("inputPassword4").value;
+   if(userEmail=="")
+       alert("Email Cannot be Empty");
+   else if(!userEmail.endsWith(".com") )//|| !userEmail.endsWith(".in"))
+       alert("Please Enter a valid Email")
+   else if(password.length < 5 ){
+       alert("Password needs atleast 5 characters");
+   } 
+}
+
